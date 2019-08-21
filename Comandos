@@ -1,0 +1,104 @@
+	Noruega30:~ alumno$ ls
+	Desktop		Downloads	Pictures	nurvoDir
+	Documents	Library		Practica	practica_2
+	Noruega30:~ alumno$ rm practica_2
+	Noruega30:~ alumno$ rm -r  nuevoDir
+	rm: nuevoDir: No such file or directory
+	Noruega30:~ alumno$ rm -r nuevoDir
+	rm: nuevoDir: No such file or directory
+	Noruega30:~ alumno$ ls
+	Desktop		Documents	Downloads	Library		Pictures	Practica	nurvoDir
+	Noruega30:~ alumno$ rm -r nurvoDir
+	Noruega30:~ alumno$ mkdir practica2
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ mkdir fisica fundamentos quimica algebra calculo
+	Noruega30:practica2 alumno$ ls
+	algebra		calculo		fisica		fundamentos	quimica
+	Noruega30:practica2 alumno$ cd algebra
+	Noruega30:algebra alumno$ cd calculo
+	-bash: cd: calculo: No such file or directory
+	Noruega30:algebra alumno$ cd 
+	Noruega30:~ alumno$ cd calculo
+	-bash: cd: calculo: No such file or directory
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd calculo
+	
+	Noruega30:calculo alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd fisica
+	Noruega30:fisica alumno$ touch archivo.txt
+	Noruega30:fisica alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd fundamentos
+	Noruega30:fundamentos alumno$ touch archivo.txt
+	Noruega30:fundamentos alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	
+	Noruega30:quimica alumno$ touch archivo.txt
+	Noruega30:quimica alumno$ cd
+	Noruega30:~ alumno$ cd practica
+	Noruega30:practica alumno$ echo hola
+	hola
+	Noruega30:practica alumno$ ls
+	practica_2	practica_2.0
+	Noruega30:practica alumno$ cd practica2
+	-bash: cd: practica2: No such file or directory
+	Noruega30:practica alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ ls
+	algebra		calculo		fisica		fundamentos	quimica
+	
+	Noruega30:algebra alumno$ echo Hola >> archivo.txt
+	Noruega30:algebra alumno$ cat archivo.txt
+	Hola
+	
+	
+	Noruega30:algebra alumno$ cd practica2
+	-bash: cd: practica2: No such file or directory
+	Noruega30:algebra alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd calculo
+	Noruega30:calculo alumno$ echo Hola >> archivo.txt
+	Noruega30:calculo alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd algebra
+	Noruega30:algebra alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:algebra alumno$ cat archivo.txt
+	Hola
+	Morales Soto Fernando 315143977
+	Noruega30:algebra alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd calculo
+	Noruega30:calculo alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:calculo alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd fisica
+	Noruega30:fisica alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:fisica alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd fundamentos
+	Noruega30:fundamentos alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd quimica
+	Noruega30:quimica alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:quimica alumno$ cat archivo.txt
+	Morales Soto Fernando 315143977
+	Noruega30:quimica alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd algebra
+	Noruega30: algebra alumno$ rm archivo.txt
+	Noruega30:algebra alumno$ touch archivo.txt
+	Noruega30:algebra alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:algebra alumno$ cd
+	Noruega30:~ alumno$ cd practica2
+	Noruega30:practica2 alumno$ cd calculo
+	Noruega30:calculo alumno$ rm archivo.txt
+	Noruega30:calculo alumno$ touch archivo.txt
+	Noruega30:calculo alumno$ echo Morales Soto Fernando 315143977 >> archivo.txt
+	Noruega30:calculo alumno$ cat archivo.ctxt
+	cat: archivo.ctxt: No such file or directory
+	Noruega30:calculo alumno$ cat archivo.txt
+	Morales Soto Fernando 315143977
+	Noruega30:calculo alumno$  
+
