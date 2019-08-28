@@ -1,0 +1,22 @@
+
+PROBLEMA 1: Dado un precio calcular su descuento si el precio es mayor a 100 descontar un 10%
+RESTRICCIONES: el numero no puede ser menor o igual a 100
+DATOS DE ENTRADA: numero natural racional mayor a 100 
+DATOS DE SALIDA: descuento aplicado 
+
+1. Solicitar el numero natural adquirido  mayor a 100.
+2. Si el numero es natural racional mayor a 100, multiplicar el valor por (0.1) y restar el resultado al valor original.
+3.   Si el numero es menor o igual a 100 regresar al punto 2 
+
+PROBLEMA 2 : Un algoritmo que lea 2 numeros y calcule su suma, resta, multiplicación y división 
+RESTRICCIONES:  el divisor no puede ser 0
+DATOS DE ENTRADA: 2 numeros reales  
+DATOS DE SALIDA:  numero real
+
+1.efectuar la suma de los 2 numeros reales obteniendo 1 solo numero real 
+2. efctuar la resta de los 2 numeros reales y obtener 1 solo numero real
+3.efectuar la divison de los 2 numeros reales considerando que el divisor no puede ser 0, obtener 1 solo numero real
+efectuar la multiplicacion de los 2 numeros reales y obtener 1 solo numero real
+
+PROBLEMA 3: los 3 numeros que denoten 1 fecha de dia mes y año y verificar si es 1 fecha valida
+RESTRICCIONES 
